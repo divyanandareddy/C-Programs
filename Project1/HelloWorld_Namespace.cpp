@@ -1,5 +1,10 @@
 #include <iostream>
-using namespace std; // Using Directive
+// Using Directive
+//using namespace std; 
+
+// Using Declaration
+using std::cout;
+
 int main()
 {
 	cout << "Hello World\n";
