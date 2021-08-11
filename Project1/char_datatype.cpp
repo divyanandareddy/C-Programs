@@ -16,6 +16,11 @@ int main()
 	std::cout << "MIN Size of char:" << CHAR_MIN << std::endl;
 	std::cout << "MAX Size of char:" << CHAR_MAX << std::endl;
 	
+	unsigned char z = 129;
 
+	std::cout << "Value of x:" << z << std::endl;
+	std::cout << "Value of x:" << int(z) << std::endl;
+
+	std::cout << "MAX Size of unsigned char:" << UCHAR_MAX << std::endl;
 
 }
