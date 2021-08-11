@@ -9,5 +9,7 @@ int main()
 	std::cout << "a value:" << a << std::endl;
 	std::cout << "b value:" << b << std::endl;
 	std::cout << "c value:" << c << std::endl;
+	
+	printf("%i\n", a);
 	return 0;
 }
