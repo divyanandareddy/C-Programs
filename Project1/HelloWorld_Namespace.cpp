@@ -1,5 +1,5 @@
 #include <iostream>
-using namespace std;
+using namespace std; // Using Directive
 int main()
 {
 	cout << "Hello World\n";
