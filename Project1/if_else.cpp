@@ -13,7 +13,7 @@ int main()
 		std::cout << "Kid";
 		//return -1;
 	}
-	else if(age <19)
+	else if(age >10 && age<19)
 	{
 		std::cout << "Kid++";
 
