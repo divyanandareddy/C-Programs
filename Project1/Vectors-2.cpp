@@ -6,7 +6,7 @@ void print_vector(std::vector<int> &data) // & used to change origional vector i
 	data.push_back(12);
 	for (int i = 0; i < data.size(); i++)
 	{
-		std::cout << data[i] << "\t"; //12
+		std::cout << data[i] << "\t"; 
 
 	}
 	std::cout << "\n";
