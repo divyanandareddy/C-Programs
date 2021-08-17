@@ -71,4 +71,6 @@ int main()
 {
 	User user1,user2,user3,user4; 
 	std::cout << "User Count: " << User::get_user_count() << std::endl; // 4 because above line we created 4 user objects
+	user1.~User();
+	std::cout << "User Count: " << User::get_user_count() << std::endl; // 3 because above line we are using destructor, 1 object is deleted
 }
