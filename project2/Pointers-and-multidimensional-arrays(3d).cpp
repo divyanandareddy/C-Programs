@@ -1,6 +1,11 @@
 #include <iostream>
 #include <string>
 
+void threedfuncheck(int (*c)[2][2]) //or void threedfuncheck(int c[][2][2])
+{
+
+}
+
 int main()
 {
 
@@ -15,5 +20,8 @@ int main()
 
 
 	int(*p)[2][2] = c;
+	threedfuncheck(c);
 
 }
+	
+	
