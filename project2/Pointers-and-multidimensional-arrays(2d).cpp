@@ -1,6 +1,10 @@
 #include <iostream>
 #include <string>
 
+void twodfuncheck(int (*a)[2]) //or void twodfuncheck(int c[][2])
+{
+
+}
 int main()
 {
 
@@ -14,5 +18,8 @@ int main()
 
 
 	int(*p)[2] = c;
+	twodfuncheck(c);
 
 }
+	
+	
