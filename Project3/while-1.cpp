@@ -4,6 +4,7 @@ using namespace std;
 
 int main()
 {
+	//100-500 numbers, divisible by 3 and 5
 	int counter = 100;
 	while (counter<=500)
 	{
