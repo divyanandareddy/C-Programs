@@ -13,7 +13,7 @@ int main()
 	float weight, height, bmi;
 	cout << "Weight(kg), height(m) :";
 	std::cin >> weight>> height;
-	bmi = weight / height * height;
+	bmi = weight / (height * height);
 
 	if (bmi < 18.5)
 	{
@@ -32,4 +32,5 @@ int main()
 
 	cout << "Your Bmi is :" << bmi << endl;
 }
+
 
