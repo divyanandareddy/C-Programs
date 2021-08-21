@@ -4,6 +4,7 @@ using namespace std;
 
 int main()
 {
+	//number of digits in entered number
 	int num;
 	cout << "Number: ";
 	cin >> num;
