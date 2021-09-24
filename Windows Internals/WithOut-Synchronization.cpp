@@ -7,8 +7,6 @@ int main()
 {
 	char text[256];
 
-	HANDLE hMutex = CreateMutex(nullptr, FALSE, L"MyMutex");
-
 	std::cout << "Press enter to start (PID=" << GetCurrentProcessId() << ")..." << std::endl;
 	std::cin.get();
 	printf("Running...\n");
